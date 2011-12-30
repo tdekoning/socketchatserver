@@ -1,4 +1,4 @@
-var io = require('socket.io').listen(1337),
+var io = require('socket.io').listen(5000),
 	people = [];
 
 io.sockets.on('connection', function (socket) {
