@@ -1,0 +1,52 @@
+body {  
+    font-family:Arial, Helvetica, sans-serif;  
+    color: white;
+}  
+h1 {
+	color: #a0a0a0;
+	text-align: center;
+}
+#container{  
+    border:5px solid gray;  
+    width:800px;  
+    margin:0 auto;  
+    padding:10px;  
+}
+#chatLog{  
+    padding:5px;  
+    border:1px solid black;  
+}  
+#chatLog p {  
+    margin:0;  
+}  
+.event {  
+    color:#999;  
+}  
+.warning{  
+    font-weight:bold;  
+    color:#CCC;  
+}
+.chatmessage {
+	background-image: linear-gradient(bottom, rgb(59,152,212) 42%, rgb(89,183,255) 71%, rgb(116,220,255) 86%);
+	background-image: -o-linear-gradient(bottom, rgb(59,152,212) 42%, rgb(89,183,255) 71%, rgb(116,220,255) 86%);
+	background-image: -moz-linear-gradient(bottom, rgb(59,152,212) 42%, rgb(89,183,255) 71%, rgb(116,220,255) 86%);
+	background-image: -webkit-linear-gradient(bottom, rgb(59,152,212) 42%, rgb(89,183,255) 71%, rgb(116,220,255) 86%);
+	background-image: -ms-linear-gradient(bottom, rgb(59,152,212) 42%, rgb(89,183,255) 71%, rgb(116,220,255) 86%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.42, rgb(59,152,212)),
+		color-stop(0.71, rgb(89,183,255)),
+		color-stop(0.86, rgb(116,220,255))
+	);
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #a0a0a0;
+	margin: 10px;
+	padding: 5px;
+}
+#message {
+	display: none;
+	padding: 5px;
+}
